@@ -1,7 +1,7 @@
 ## Goal
-Practicing again React after a year of not touchiong React. However, I just anyways learn react basics with small examples.
+Practicing again React after a year of not touching React. However, I previously just learned react basics with small examples.
 
-The project a simple small one page cards page where practice using react and doing components. 
+The project a simple small one page tailwindcss grid page where I practice using jsx, doing components, props. 
 
 ## React + Vite
 

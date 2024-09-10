@@ -6,7 +6,7 @@ import Grid from './Grid'
 const AppBody = () => {
   return (
     <>
-    <div class="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0 mt-5">
+    <div className="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0 mt-5">
     
 <Title></Title>
 <Description></Description>

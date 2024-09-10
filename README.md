@@ -1,4 +1,9 @@
-# React + Vite
+## Goal
+Practicing again React after a year of not touching React. However, I previously just learned react basics with small examples.
+
+The project a simple small one page tailwindcss grid page where I practice using jsx, doing components, props. 
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

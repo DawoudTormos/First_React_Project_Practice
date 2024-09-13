@@ -1,19 +1,25 @@
-import { useState } from 'react'
-import Header from './Header'
-import AppBody from './Components/AppBody'
+import { useState, useEffect } from 'react';
+import Header from './Header';
+import AppBody from './Components/AppBody';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [cellsData, setCellsData] = useState([]);
+
+  useEffect(() => {
+    fetch('http://localhost:3000/data') 
+      .then(response => response.json())
+      .then(data => { 
+        console.log("rendering App component");
+        setCellsData(data);
+      });
+  }, []); 
 
   return (
-  <>
-    <Header></Header>
-    <AppBody></AppBody>
-
-
-  </>
+    <>
+      <Header />
+      <AppBody cellsData={cellsData} />
+    </>
   );
-  
 }
 
-export default App
+export default App;

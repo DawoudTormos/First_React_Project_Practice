@@ -2,6 +2,7 @@
 
 ### 🎯 Goal
 I'm diving back into React after a year-long hiatus. Previously, I covered the basics with small examples, but now I'm aiming for something more substantial. This project is a simple, one-page TailwindCSS grid layout where I'll focus on practicing JSX, component creation, props, and hooks.
+It's a simple page of a TailwindCSS grid of cells/cards but built with react and well-organized into react components.
 
 ### Running development server
 At the root of the project:
@@ -30,7 +31,7 @@ At the root of the project:
   - **CLI**: `node index.js`
 
 #### 4. 📝 Notes
-- Remember, changes in the React project code won't be visible until you rebuild the production version. Navigate to the root directory and run:
+- At first u would have no built production version of the react project. Also remember, changes in the React project code won't be visible until you rebuild the production version. Navigate to the root directory and run:
   - **CLI**: `npm run build`
 
 ## ⚛️React + Vite Setup
